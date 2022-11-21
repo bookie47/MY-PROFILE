@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+*{
+    font-family: 'Kanit',sans-serif;
+    color: #ffffff;
+}
+body{
+    background-color: rgba(30, 30, 30, 1);
+}
+.img2{
+    border-radius: 10px;
+}
