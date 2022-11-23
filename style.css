@@ -54,7 +54,7 @@ nav{
 
 .links a, .links button{  
     color: #ffffff;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 400;
     transition: var(--transition);
 }
@@ -123,7 +123,7 @@ button{
 
 .img_me1{
     position: relative;
-    margin-top: -120px;
+    margin-top: -100px;
 } 
 
 .img_me2{
