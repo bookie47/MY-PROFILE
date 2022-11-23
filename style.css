@@ -1,132 +1,61 @@
 /* Add font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/* All Class using same dataset*/
-:root{
-    /* Define Variables*/
-    --backgroundcolor : #1F1F1F; /* background color*/
-    --accentHover : ; /* mouse cursor */
-    --transition : all 0.3s ease 0s;  /* Delay Tiome */
-}
-/* All Section */
 *{
     /*clear margin and padding */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins";
+    background-color: #24252A;
 }
 
-html,body{
-    height: 100%; /*Fixed height using scool*/
-    overflow: hidden;
-}
-
-body{
-    background-color: #1F1F1F;
-    color: #ffffff;
-}
-
-.button_me, .logo{
-    cursor: pointer; /*link Elemnet */
-}
-
-main{
-    height: 100%;
-    display: grid;
-    grid-template-columns: minmax(60px, 1fr) repeat(6,minmax(50px, 190px)) minmax(60px,1fr);
-
+li, a, button {
+    font-family: "Monserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
 }
 
 header{
-    grid-column: 2 / span 6; /* heder start 2 and other last colum*/
-    
-}
-nav{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    height: 100px;
+    padding: 30px 10%;
 }
 
-/* class */
-.links{       /* Nagivation Bar */
-    margin-left: auto;
-}
-
-.links a, .links button{  
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    transition: var(--transition);
-}
-.links a{
-    margin-right: 40px;
-}
-
-.links a:hover{
-    color: var(--accentHover); /* cursor hover */
-}
-
-/*  View About Me Button effect */
-button{
-    padding: 20px 50px;
-    font-size: 1.5rem;
+.logo {
     cursor: pointer;
-    border: 2px solid;
-    background: transparent;
-    position: relative;
-    margin: 20px;
-    transition:all 0.25s ease ;
-    color:#ffffff ;
-    margin-top: 70px;
-    padding: 0.3cm 1.5cm;
-    
-}
-.btn-5:hover{
-    transform: translate(0,-6px);
-}
-.btn-5{
-    border-radius: 20px;
-    
+    margin-right: auto;
 }
 
-/* End View About Me Button effect */
-
-
-/* Content */
-.info{
-    grid-column: 2 / span 4;
-    margin-top: 100px;
-    text-align: left;
+.nav_links{
+    list-style: none;
 }
-.content_font1{
-    font-size: 18px;
-}
-.content_font2{
-    font-size: 40px;
-}
-.content_font3{
-    font-size: 40px;
-    margin-left: 15%;
-}
-.content_font4{
-    margin-top: 50px;
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
 }
 
-.img_me1{
-    position: relative;
-    margin-top: -100px;
-} 
-
-.img_me2{
-    margin-top: -700px;
-    position: absolute;
-    right: -250px;
+.nav_links li a {
+    transition: all 0.3s ease 0s;
 }
 
-.shape{
-    grid-column: 3 /span 6;
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 11.5%;
+.nav_links li a:hover{
+    color: #0088a9;
 }
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,160,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
