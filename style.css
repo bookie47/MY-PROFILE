@@ -9,6 +9,12 @@
     padding: 0;
     background-color: #24252A;
 }
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
 
 li, a, button {
     font-family: "Monserrat",sans-serif;
@@ -47,7 +53,7 @@ header{
 }
 
 button{
-    margin-left: 20px;
+    
     padding: 9px 25px;
     background-color: rgba(0,136,160,1);
     border: none;
@@ -55,7 +61,82 @@ button{
     cursor:pointer;
     transition: all 0.3s ease 0s;
 }
+.contact{
+    margin-left: 20px;
+}
+
+
+.viewmyprofile{
+    
+    margin-left: 200px;
+    
+}
+
 button:hover{
     background-color: rgba(0,136,169,0.8);
 }
+
+.TEXT{
+    margin-left: 2%;
+}
+
+.text{
+    margin-top: 5%;
+    
+}
+
+.Hello{
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    margin-left: 2%;
+    
+}
+
+.name{
+    margin-top: -1.5%;
+    display: flex;
+    padding: 0px 12%;
+    font-size: 50px;
+    
+}
+
+.surname{
+    margin-top: -0.5%;
+    display: flex;
+    padding: 1px 20%;
+    font-size: 50px;
+}
+
+.content_0{
+    margin-top: 4%;
+}
+
+.content{
+    text-indent: 5cm;
+}
+
+.content_2{
+    text-indent: 5cm;
+    margin-bottom: 100px;
+}
+
+.img_me{
+    display: flex;
+    margin-left: 57%;
+    margin-top: -35%;
+}
+
+.decorate{
+    display: flex;
+    margin-top: -50%;
+    margin-left: 30%;
+}
+
+.shape{
+    display: flex;
+    margin-top: -83%;
+    margin-left: 11.5%;
+}
+
 
